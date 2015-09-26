@@ -13,7 +13,8 @@ sap.ui.define([
         init: function() {
         	
         	var oConfig = this.getMetadata().getConfig();
-
+        	
+        	// currently the URL limits the category to nerdy - feel free to change
         	this.jokesURL = oConfig.jokesRemote;
         	
         	var oModel = new JSONModel(this.jokesURL);
