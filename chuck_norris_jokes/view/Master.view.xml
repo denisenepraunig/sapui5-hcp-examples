@@ -1,0 +1,36 @@
+<mvc:View
+	controllerName="chuck.norris.jokes.controller.Master"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:semantic="sap.m.semantic">
+
+	<semantic:FullscreenPage
+		id="page"
+		title="{i18n>masterPageTitle}">
+
+		<semantic:content>
+		
+			<Panel
+		        headerText="Joke Nr.: {/value/id}"
+		        class="sapUiResponsiveMargin"
+		        width="auto" >
+				<content>
+					<Text text="{/value/joke}"></Text>
+				</content>
+			</Panel>
+
+ 		</semantic:content>
+		<semantic:customFooterContent>
+		
+			<Button
+				type="Accept"
+				icon="sap-icon://newspaper"
+				text="{i18n>newJokeButton}" 
+				press="onNewJoke"/>
+				
+		</semantic:customFooterContent>
+		
+	</semantic:FullscreenPage>
+
+</mvc:View>

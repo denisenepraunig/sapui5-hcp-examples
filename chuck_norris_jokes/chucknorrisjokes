@@ -1,0 +1,12 @@
+#
+#Sat Sep 26 20:23:31 UTC 2015
+Description=Chuck Norris Jokes
+Type=HTTP
+Authentication=NoAuthentication
+WebIDEUsage=odata_gen
+Name=chucknorrisjokes
+WebIDEEnabled=true
+CloudConnectorVersion=2
+URL=http\://api.icndb.com
+ProxyType=Internet
+WebIDESystem=chucknorrisjokes

@@ -1,0 +1,32 @@
+{
+  "run": [
+    {
+      "filePath": "/chuck_norris_jokes/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "urlParameters": null,
+      "_metadata": {
+        "runnerId": "qunitrunner",
+        "id": 4885089,
+        "displayName": "New Unit Test 17"
+      }
+    },
+    {
+      "filePath": "/chuck_norris_jokes/index.html",
+      "previewMode": 0,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 1409284,
+        "displayName": "New Web Application 29"
+      }
+    }
+  ]
+}
