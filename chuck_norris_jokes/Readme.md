@@ -2,7 +2,7 @@
 
 This app is powered by the [Internet Chuck Norris Database API]. It displays a random Chuck Norris nerdy joke and the values are escaped for JavaScript usage. This is achieved with the following API call:
 
-```html
+```javascript
 http://api.icndb.com/jokes/random?limitTo=[nerdy]&escape=javascript
 ```
 The app was created by [Denise Nepraunig] in September 2015. You can follow me on twitter [@denisenepraunig].
