@@ -18,10 +18,10 @@ Have a look at the [SCN blog post] for feedback.
 
 ## Technical info
 - mobile first
-- [SAPUI5] (1.30) app
-- hosted on [HANA Cloud Platform] !(HCP)
-- deployed as **[HTML5 application]** on HCP
-- uses **destination service** from HCP to access the API
+- [SAPUI5] 1.30 app
+- hosted on [HANA Cloud Platform] = HCP
+- deployed as [HTML5 application] on HCP
+- uses [destination service] from HCP to access the API
 - build with [SAP Web IDE]
 - minified with [Application Build] in the SAP Web IDE
 
@@ -56,3 +56,4 @@ Your folder structure should look like this:
 [Application Build]: https://help.hana.ondemand.com/SAP_RDE/frameset.htm?dfb26ef028624cf486a8bbb0bfd459ff.html
 [HTML5 application]: https://help.hana.ondemand.com/help/frameset.htm?b12016370421435a9f38e6955a2820e8.html
 [SCN blog post]: http://scn.sap.com/community/developer-center/front-end/blog/2015/09/27/chuck-norris-jokes-sapui5-130-app
+[destination service]: https://help.hana.ondemand.com/help/frameset.htm?bec79c93f82d407faa333554f8c8647d.html
