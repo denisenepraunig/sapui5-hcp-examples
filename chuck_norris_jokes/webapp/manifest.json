@@ -78,10 +78,6 @@
 					"viewId": "master",
 					"viewLevel": 1
 				},
-				"objectNotFound": {
-					"viewName": "ObjectNotFound",
-					"viewId": "objectNotFound"
-				},
 				"notFound": {
 					"viewName": "NotFound",
 					"viewId": "notFound"
