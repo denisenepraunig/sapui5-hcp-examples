@@ -7,8 +7,10 @@ http://api.icndb.com/jokes/random?limitTo=[nerdy]&escape=javascript
 ```
 The app was created by [Denise Nepraunig] in September 2015. You can follow me on twitter [@denisenepraunig].
 
-## Aplication Info
+## Application Info
 The application was build with [SAP] technology and was developed with my free [trial account].
+
+Have a look at the [SCN blog post] for feedback.
 
 [Open app].
 
@@ -17,8 +19,8 @@ The application was build with [SAP] technology and was developed with my free [
 ## Technical info
 - mobile first
 - [SAPUI5] (1.30) app
-- hosted on [HANA Cloud Platform] (HCP)
-- deployed as **HTML5 application** on HCP
+- hosted on [HANA Cloud Platform] !(HCP)
+- deployed as **[HTML5 application]** on HCP
 - uses **destination service** from HCP to access the API
 - build with [SAP Web IDE]
 - minified with [Application Build] in the SAP Web IDE
@@ -52,3 +54,5 @@ Your folder structure should look like this:
 [trial account]: https://account.hanatrial.ondemand.com/register
 [Open app]: https://chucknorrisjokes-p1941667654trial.dispatcher.hanatrial.ondemand.com/
 [Application Build]: https://help.hana.ondemand.com/SAP_RDE/frameset.htm?dfb26ef028624cf486a8bbb0bfd459ff.html
+[HTML5 application]: https://help.hana.ondemand.com/help/frameset.htm?b12016370421435a9f38e6955a2820e8.html
+[SCN blog post]: http://scn.sap.com/community/developer-center/front-end/blog/2015/09/27/chuck-norris-jokes-sapui5-130-app
