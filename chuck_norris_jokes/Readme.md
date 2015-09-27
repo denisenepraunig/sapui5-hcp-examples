@@ -39,6 +39,7 @@ The fastest way to deploy this application is the following:
 (1) The Finder's *Compress* command creates an additional folder, which we don't need inside the SAP Web IDE.
 
 Your folder structure should look like this:
+
 ![Chuck Norris Jokes Folder Structure](folder_structure.png)
 
 [Internet Chuck Norris Database API]: http://www.icndb.com/api/
