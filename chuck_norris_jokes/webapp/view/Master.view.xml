@@ -12,7 +12,7 @@
 		<semantic:content>
 		
 			<Panel
-		        headerText="Joke Nr.: {/value/id}"
+		        headerText="{i18n>JokeNr}: {/value/id}"
 		        class="sapUiResponsiveMargin"
 		        width="auto" >
 				<content>
