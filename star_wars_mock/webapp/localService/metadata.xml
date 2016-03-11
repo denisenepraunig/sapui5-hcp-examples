@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<edmx:Edmx Version="1.0"
+    xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+    <edmx:DataServices
+        xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" m:DataServiceVersion="2.0">
+        <Schema Namespace="d062712trial.dev.swapi.services"
+            xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices"
+            xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+            xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+            <EntityType Name="PeopleType">
+                <Key>
+                    <PropertyRef Name="ID" />
+                </Key>
+                <Property Name="ID" Type="Edm.Int32" Nullable="false" />
+                <Property Name="NAME" Type="Edm.String" MaxLength="40" />
+                <Property Name="HEIGHT" Type="Edm.Int32" />
+                <Property Name="MASS" Type="Edm.Int32" />
+                <Property Name="HAIR_COLOR" Type="Edm.String" MaxLength="20" />
+                <Property Name="SKIN_COLOR" Type="Edm.String" MaxLength="20" />
+                <Property Name="EYE_COLOR" Type="Edm.String" MaxLength="20" />
+                <Property Name="BIRTH_YEAR" Type="Edm.String" MaxLength="20" />
+                <Property Name="GENDER" Type="Edm.String" MaxLength="20" />
+                <Property Name="SPECIES_ID" Type="Edm.Int32" />
+                <NavigationProperty Name="Starships" Relationship="d062712trial.dev.swapi.services.People_StarshipsType" FromRole="PeoplePrincipal" ToRole="PeopleWithStarshipsDependent" />
+                <NavigationProperty Name="Species" Relationship="d062712trial.dev.swapi.services.People_SpeciesType" FromRole="PeoplePrincipal" ToRole="SpeciesDependent" />
+            </EntityType>
+            <EntityType Name="StarshipsType">
+                <Key>
+                    <PropertyRef Name="ID" />
+                </Key>
+                <Property Name="ID" Type="Edm.Int32" Nullable="false" />
+                <Property Name="NAME" Type="Edm.String" MaxLength="40" />
+                <Property Name="MODEL" Type="Edm.String" MaxLength="40" />
+                <Property Name="MANUFACTURER" Type="Edm.String" MaxLength="40" />
+            </EntityType>
+            <EntityType Name="People2SpaceshipsType">
+                <Key>
+                    <PropertyRef Name="P_ID" />
+                    <PropertyRef Name="S_ID" />
+                </Key>
+                <Property Name="P_ID" Type="Edm.Int32" Nullable="false" />
+                <Property Name="S_ID" Type="Edm.Int32" Nullable="false" />
+            </EntityType>
+            <EntityType Name="PeopleWithStarshipsType">
+                <Key>
+                    <PropertyRef Name="PEOPLE_ID" />
+                    <PropertyRef Name="STARSHIPS_ID" />
+                </Key>
+                <Property Name="PEOPLE_ID" Type="Edm.Int32" Nullable="false" />
+                <Property Name="PEOPLE_NAME" Type="Edm.String" MaxLength="40" />
+                <Property Name="STARSHIPS_ID" Type="Edm.Int32" Nullable="false" />
+                <Property Name="STARSHIPS_NAME" Type="Edm.String" MaxLength="40" />
+            </EntityType>
+            <EntityType Name="SpeciesType">
+                <Key>
+                    <PropertyRef Name="ID" />
+                </Key>
+                <Property Name="ID" Type="Edm.Int32" Nullable="false" />
+                <Property Name="NAME" Type="Edm.String" MaxLength="40" />
+                <NavigationProperty Name="People" Relationship="d062712trial.dev.swapi.services.Species_PeopleType" FromRole="SpeciesPrincipal" ToRole="PeopleDependent" />
+            </EntityType>
+            <Association Name="People_StarshipsType">
+                <End Type="d062712trial.dev.swapi.services.PeopleType" Role="PeoplePrincipal" Multiplicity="1"/>
+                <End Type="d062712trial.dev.swapi.services.PeopleWithStarshipsType" Role="PeopleWithStarshipsDependent" Multiplicity="*"/>
+            </Association>
+            <Association Name="People_SpeciesType">
+                <End Type="d062712trial.dev.swapi.services.PeopleType" Role="PeoplePrincipal" Multiplicity="1"/>
+                <End Type="d062712trial.dev.swapi.services.SpeciesType" Role="SpeciesDependent" Multiplicity="1"/>
+            </Association>
+            <Association Name="Species_PeopleType">
+                <End Type="d062712trial.dev.swapi.services.SpeciesType" Role="SpeciesPrincipal" Multiplicity="1"/>
+                <End Type="d062712trial.dev.swapi.services.PeopleType" Role="PeopleDependent" Multiplicity="*"/>
+            </Association>
+            <EntityContainer Name="api" m:IsDefaultEntityContainer="true">
+                <EntitySet Name="People" EntityType="d062712trial.dev.swapi.services.PeopleType" />
+                <EntitySet Name="Starships" EntityType="d062712trial.dev.swapi.services.StarshipsType" />
+                <EntitySet Name="People2Spaceships" EntityType="d062712trial.dev.swapi.services.People2SpaceshipsType" />
+                <EntitySet Name="PeopleWithStarships" EntityType="d062712trial.dev.swapi.services.PeopleWithStarshipsType" />
+                <EntitySet Name="Species" EntityType="d062712trial.dev.swapi.services.SpeciesType" />
+                <AssociationSet Name="People_Starships" Association="d062712trial.dev.swapi.services.People_StarshipsType">
+                    <End Role="PeoplePrincipal" EntitySet="People"/>
+                    <End Role="PeopleWithStarshipsDependent" EntitySet="PeopleWithStarships"/>
+                </AssociationSet>
+                <AssociationSet Name="People_Species" Association="d062712trial.dev.swapi.services.People_SpeciesType">
+                    <End Role="PeoplePrincipal" EntitySet="People"/>
+                    <End Role="SpeciesDependent" EntitySet="Species"/>
+                </AssociationSet>
+                <AssociationSet Name="Species_People" Association="d062712trial.dev.swapi.services.Species_PeopleType">
+                    <End Role="SpeciesPrincipal" EntitySet="Species"/>
+                    <End Role="PeopleDependent" EntitySet="People"/>
+                </AssociationSet>
+            </EntityContainer>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

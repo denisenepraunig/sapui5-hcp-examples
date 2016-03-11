@@ -1,0 +1,25 @@
+[{
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.SpeciesType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/Species(1)"
+	},
+	"ID": 1,
+	"NAME": "Human",
+	"People": {
+		"__deferred": {
+			"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/Species(1)/People"
+		}
+	}
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.SpeciesType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/Species(2)"
+	},
+	"ID": 2,
+	"NAME": "Droid",
+	"People": {
+		"__deferred": {
+			"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/Species(2)/People"
+		}
+	}
+}]

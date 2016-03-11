@@ -1,0 +1,22 @@
+[{
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.People2SpaceshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/People2Spaceships(P_ID=1,S_ID=12)"
+	},
+	"P_ID": 1,
+	"S_ID": 12
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.People2SpaceshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/People2Spaceships(P_ID=1,S_ID=22)"
+	},
+	"P_ID": 1,
+	"S_ID": 22
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.People2SpaceshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/People2Spaceships(P_ID=4,S_ID=13)"
+	},
+	"P_ID": 4,
+	"S_ID": 13
+}]

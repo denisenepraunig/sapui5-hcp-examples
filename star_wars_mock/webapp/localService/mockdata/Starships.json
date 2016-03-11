@@ -1,0 +1,28 @@
+[{
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.StarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/Starships(12)"
+	},
+	"ID": 12,
+	"NAME": "X-wing",
+	"MODEL": "T-65 X-wing",
+	"MANUFACTURER": "Incom Corporation"
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.StarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/Starships(13)"
+	},
+	"ID": 13,
+	"NAME": "TIE Advanced x1",
+	"MODEL": "Twin Ion Engine Advanced x1",
+	"MANUFACTURER": "Sienar Fleet Systems"
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.StarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/Starships(22)"
+	},
+	"ID": 22,
+	"NAME": "Imperial shuttle",
+	"MODEL": "Lambda-class T-4a shuttle",
+	"MANUFACTURER": "Sienar Fleet Systems"
+}]

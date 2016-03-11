@@ -1,0 +1,280 @@
+[{
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=1,STARSHIPS_ID=12)"
+	},
+	"PEOPLE_ID": 1,
+	"PEOPLE_NAME": "Luke Skywalker",
+	"STARSHIPS_ID": 12,
+	"STARSHIPS_NAME": "X-wing"
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=1,STARSHIPS_ID=22)"
+	},
+	"PEOPLE_ID": 1,
+	"PEOPLE_NAME": "Luke Skywalker",
+	"STARSHIPS_ID": 22,
+	"STARSHIPS_NAME": "Imperial shuttle"
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=2,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 2,
+	"PEOPLE_NAME": "C-3PO",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=3,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 3,
+	"PEOPLE_NAME": "R2-D2",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=4,STARSHIPS_ID=13)"
+	},
+	"PEOPLE_ID": 4,
+	"PEOPLE_NAME": "Darth Vader",
+	"STARSHIPS_ID": 13,
+	"STARSHIPS_NAME": "TIE Advanced x1"
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=5,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 5,
+	"PEOPLE_NAME": "Leia Organa",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=6,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 6,
+	"PEOPLE_NAME": "Owen Lars",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=7,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 7,
+	"PEOPLE_NAME": "Beru Whitesun lars",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=8,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 8,
+	"PEOPLE_NAME": "R5-D4",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=9,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 9,
+	"PEOPLE_NAME": "Biggs Darklighter",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=10,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 10,
+	"PEOPLE_NAME": "Obi-Wan Kenobi",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=11,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 11,
+	"PEOPLE_NAME": "Anakin Skywalker",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=12,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 12,
+	"PEOPLE_NAME": "Wilhuff Tarkin",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=13,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 13,
+	"PEOPLE_NAME": "Chewbacca",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=14,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 14,
+	"PEOPLE_NAME": "Han Solo",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=15,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 15,
+	"PEOPLE_NAME": "Greedo",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=16,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 16,
+	"PEOPLE_NAME": "Jabba Desilijic Tiure",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=17,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 17,
+	"PEOPLE_NAME": "Wedge Antilles",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=18,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 18,
+	"PEOPLE_NAME": "Jek Tono Porkins",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=19,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 19,
+	"PEOPLE_NAME": "Yoda",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=20,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 20,
+	"PEOPLE_NAME": "Palpatine",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=21,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 21,
+	"PEOPLE_NAME": "Boba Fett",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=22,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 22,
+	"PEOPLE_NAME": "IG-88",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=23,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 23,
+	"PEOPLE_NAME": "Bossk",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=24,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 24,
+	"PEOPLE_NAME": "Lando Calrissian",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=25,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 25,
+	"PEOPLE_NAME": "Lobot",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=26,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 26,
+	"PEOPLE_NAME": "Ackbar",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=27,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 27,
+	"PEOPLE_NAME": "Mon Mothma",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=28,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 28,
+	"PEOPLE_NAME": "Arvel Crynyd",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=29,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 29,
+	"PEOPLE_NAME": "Wicket Systri Warrick",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}, {
+	"__metadata": {
+		"type": "d062712trial.dev.swapi.services.PeopleWithStarshipsType",
+		"uri": "https://s8hanaxs.hanatrial.ondemand.com:443/d062712trial/dev/swapi/services/api.xsodata/PeopleWithStarships(PEOPLE_ID=30,STARSHIPS_ID=null)"
+	},
+	"PEOPLE_ID": 30,
+	"PEOPLE_NAME": "Nien Nunb",
+	"STARSHIPS_ID": null,
+	"STARSHIPS_NAME": null
+}]
