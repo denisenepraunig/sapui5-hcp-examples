@@ -1,4 +1,6 @@
 {
+  "welcomeFile": "index.html",
+  "authenticationMethod": "none",	
   "routes": [
     {
       "path": "/webapp/resources",

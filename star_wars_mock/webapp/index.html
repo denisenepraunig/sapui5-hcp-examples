@@ -19,9 +19,13 @@
 	<script>
 		sap.ui.getCore().attachInit(function () {
 			sap.ui.require([
+				"star/wars/app/localService/mockserver",
 				"sap/m/Shell",
 				"sap/ui/core/ComponentContainer"
-			], function (Shell, ComponentContainer) {
+			], function (mockserver, Shell, ComponentContainer) {
+				
+				// mock the backend with OData mockserver from SAPUI5
+				mockserver.init();
 				// initialize the UI component
 				new Shell({
 					app: new ComponentContainer({

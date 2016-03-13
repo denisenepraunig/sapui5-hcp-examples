@@ -10,7 +10,7 @@
 		id="page"
 		navButtonPress="onNavBack"
 		showNavButton="true"
-		title="{i18n>objectTitle}"
+		title="{i18n>objectMass}"
 		busy="{objectView>/busy}"
 		busyIndicatorDelay="{objectView>/delay}">
 
@@ -32,34 +32,32 @@
 					<IconTabFilter
 						icon="sap-icon://activity-items">
 						  <f:SimpleForm>
-							<core:Title text="General Information" />
-							<Label text="ID"/>
+							<core:Title text="{i18n>objectGeneralInformation}" />
+							<Label text="{i18n>objectID}"/>
 							<Text text="{ID}" />
-							<Label text="Species"/>
-							<Text  binding="{Species}" text="{NAME}" />								
-							<Label text="Mass"/>
+							<Label text="{i18n>objectMass}"/>
 							<Text text="{
 									path: 'MASS',
 									formatter: '.formatter.numberUnit'
 								}
 								{viewModel>/massunit}" />
-							<Label text="Height"/>
+							<Label text="{i18n>objectHeight}"/>
 							<Text text="{
 									path: 'HEIGHT',
 									formatter: '.formatter.numberUnit'
 								}
 								{viewModel>/heightunit}" />
-							<Label text="Gender"/>
+							<Label text="{i18n>objectGender}"/>
 							<Text text="{GENDER}" />
-							<Label text="Birth year"/>
+							<Label text="{i18n>objectBirthYear}"/>
 							<Text text="{BIRTH_YEAR}" />	
 								
-							<core:Title text="Color Information" />
-							<Label text="Hair color"/>
+							<core:Title text="{i18n>objectColorInformation}" />
+							<Label text="{i18n>objectHairColor}"/>
 							<Text text="{HAIR_COLOR}" />
-							<Label text="Skin color"/>
+							<Label text="{i18n>objectSkinColor}"/>
 							<Text text="{SKIN_COLOR}" />
-							<Label text="Eye color"/>
+							<Label text="{i18n>objectEyeColor}"/>
 							<Text text="{EYE_COLOR}" />
 						</f:SimpleForm>
 					</IconTabFilter>
