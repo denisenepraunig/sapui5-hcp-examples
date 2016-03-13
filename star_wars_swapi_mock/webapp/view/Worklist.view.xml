@@ -10,6 +10,18 @@
 		showNavButton="false"
 		title="{i18n>worklistViewTitle}">
 		<semantic:content>
+			
+			<FlexBox
+		        class="sapUiResponsiveContentPadding sapUiSmallMargin" 
+				height="120px"
+				alignItems="Start"
+				justifyContent="Center">
+				<items>
+		            <Image class="sapUiSmallMargin"
+		                src="webapp/img/starwarslogo.png" height="100px"></Image>				
+				</items>
+			</FlexBox>
+			
 			<Table
 				id="table"
 				width="auto"
