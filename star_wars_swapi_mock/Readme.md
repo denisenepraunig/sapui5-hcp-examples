@@ -1,10 +1,9 @@
 # Star Wars API (SWAPI) SAPUI5 App with mocked OData backend
 
-This app is inspired by the [Star Wars API - SWAPI]. Currently it displays facts about the people. The backend ist currently mocked via tha [SAPUI5 Mockserver]. The modelling of the backend was done with HANAXS and the XSOData service.
+This app is inspired by the [Star Wars API - SWAPI]. 
 
-```javascript
-http://swapi.co/
-```
+Currently it displays facts about the people. The backend ist currently mocked via tha [SAPUI5 Mockserver]. The modelling of the backend was done with HANAXS and the XSODATA service.
+
 The app was created by [Denise Nepraunig] in March 2016. You can follow me on twitter [@denisenepraunig].
 
 ## Application Info
@@ -25,6 +24,7 @@ TODO: provide a blog post
 - deployed as [HTML5 application] on HCP
 - build with [SAP Web IDE]
 
+[Star Wars API - SWAPI]: http://swapi.co/
 [Denise Nepraunig]: http://www.nepraunig.com/
 [@denisenepraunig]: https://twitter.com/denisenepraunig
 [SAPUI5]: https://sapui5.hana.ondemand.com/sdk/index.html
